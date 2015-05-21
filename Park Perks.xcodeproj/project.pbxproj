@@ -9,18 +9,21 @@
 /* Begin PBXBuildFile section */
 		067CF4D11B0BE69600F9E879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CF4D01B0BE69600F9E879 /* main.m */; };
 		067CF4D41B0BE69600F9E879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CF4D31B0BE69600F9E879 /* AppDelegate.m */; };
-		067CF4D71B0BE69600F9E879 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CF4D61B0BE69600F9E879 /* ViewController.m */; };
 		067CF4DA1B0BE69600F9E879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067CF4D81B0BE69600F9E879 /* Main.storyboard */; };
 		067CF4DC1B0BE69600F9E879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067CF4DB1B0BE69600F9E879 /* Images.xcassets */; };
 		067CF4DF1B0BE69600F9E879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067CF4DD1B0BE69600F9E879 /* LaunchScreen.xib */; };
 		067CF4EB1B0BE69600F9E879 /* Park_PerksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CF4EA1B0BE69600F9E879 /* Park_PerksTests.m */; };
-		A55BCD001B0BF0CC0005F233 /* ParkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BCCFF1B0BF0CC0005F233 /* ParkModel.m */; };
-		A55BCD061B0BFC4D0005F233 /* Perk.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BCD051B0BFC4D0005F233 /* Perk.m */; };
-		A55BCD0A1B0BFF6C0005F233 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD091B0BFF6C0005F233 /* Parse.framework */; };
-		A55BCD0E1B0BFF9D0005F233 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD0D1B0BFF9D0005F233 /* ParseUI.framework */; };
-		A55BCD121B0BFFE10005F233 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD0F1B0BFFE10005F233 /* Bolts.framework */; };
-		A55BCD131B0BFFE10005F233 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD101B0BFFE10005F233 /* ParseCrashReporting.framework */; };
-		A55BCD141B0BFFE10005F233 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD111B0BFFE10005F233 /* ParseFacebookUtils.framework */; };
+		6823E6201B0D27F9005B4087 /* ParkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823E61F1B0D27F9005B4087 /* ParkListViewController.m */; };
+		6823E6231B0D2803005B4087 /* ParkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823E6221B0D2803005B4087 /* ParkDetailViewController.m */; };
+		6823E6261B0D2840005B4087 /* ParkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823E6251B0D2840005B4087 /* ParkController.m */; };
+		6823E6291B0D287D005B4087 /* ParkSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823E6281B0D287D005B4087 /* ParkSearchViewController.m */; };
+		6823E62C1B0D28D3005B4087 /* Park.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823E62B1B0D28D3005B4087 /* Park.m */; };
+		6823E6321B0D292A005B4087 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823E62D1B0D292A005B4087 /* Bolts.framework */; };
+		6823E6331B0D292A005B4087 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823E62E1B0D292A005B4087 /* Parse.framework */; };
+		6823E6341B0D292A005B4087 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823E62F1B0D292A005B4087 /* ParseCrashReporting.framework */; };
+		6823E6351B0D292A005B4087 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823E6301B0D292A005B4087 /* ParseFacebookUtils.framework */; };
+		6823E6361B0D292A005B4087 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823E6311B0D292A005B4087 /* ParseUI.framework */; };
+		6823E6391B0D2A75005B4087 /* Perk.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823E6381B0D2A75005B4087 /* Perk.m */; };
 		A55BCD1D1B0C001F0005F233 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD151B0C001F0005F233 /* Accounts.framework */; };
 		A55BCD1E1B0C001F0005F233 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD161B0C001F0005F233 /* AdSupport.framework */; };
 		A55BCD1F1B0C001F0005F233 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD171B0C001F0005F233 /* AudioToolbox.framework */; };
@@ -39,7 +42,6 @@
 		A55BCD341B0C00C60005F233 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD331B0C00C60005F233 /* SystemConfiguration.framework */; };
 		A55BCD361B0C00D10005F233 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD351B0C00D10005F233 /* UIKit.framework */; };
 		A55BCD371B0C00E30005F233 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BCD071B0BFF090005F233 /* libsqlite3.0.dylib */; };
-		A562EBC91B0C3E75001CA5F1 /* PerkProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A562EBC81B0C3E75001CA5F1 /* PerkProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,25 +60,31 @@
 		067CF4D01B0BE69600F9E879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		067CF4D21B0BE69600F9E879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		067CF4D31B0BE69600F9E879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		067CF4D51B0BE69600F9E879 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		067CF4D61B0BE69600F9E879 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		067CF4D91B0BE69600F9E879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067CF4DB1B0BE69600F9E879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		067CF4DE1B0BE69600F9E879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		067CF4E41B0BE69600F9E879 /* Park PerksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park PerksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067CF4E91B0BE69600F9E879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067CF4EA1B0BE69600F9E879 /* Park_PerksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Park_PerksTests.m; sourceTree = "<group>"; };
-		A55BCCFE1B0BF0CC0005F233 /* ParkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkModel.h; sourceTree = "<group>"; };
-		A55BCCFF1B0BF0CC0005F233 /* ParkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkModel.m; sourceTree = "<group>"; };
-		A55BCD041B0BFC4D0005F233 /* Perk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perk.h; sourceTree = "<group>"; };
-		A55BCD051B0BFC4D0005F233 /* Perk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Perk.m; sourceTree = "<group>"; };
+		6823E61E1B0D27F9005B4087 /* ParkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkListViewController.h; sourceTree = "<group>"; };
+		6823E61F1B0D27F9005B4087 /* ParkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkListViewController.m; sourceTree = "<group>"; };
+		6823E6211B0D2803005B4087 /* ParkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkDetailViewController.h; sourceTree = "<group>"; };
+		6823E6221B0D2803005B4087 /* ParkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkDetailViewController.m; sourceTree = "<group>"; };
+		6823E6241B0D2840005B4087 /* ParkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkController.h; sourceTree = "<group>"; };
+		6823E6251B0D2840005B4087 /* ParkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkController.m; sourceTree = "<group>"; };
+		6823E6271B0D287D005B4087 /* ParkSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkSearchViewController.h; sourceTree = "<group>"; };
+		6823E6281B0D287D005B4087 /* ParkSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkSearchViewController.m; sourceTree = "<group>"; };
+		6823E62A1B0D28D3005B4087 /* Park.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Park.h; sourceTree = "<group>"; };
+		6823E62B1B0D28D3005B4087 /* Park.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Park.m; sourceTree = "<group>"; };
+		6823E62D1B0D292A005B4087 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6823E62E1B0D292A005B4087 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		6823E62F1B0D292A005B4087 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		6823E6301B0D292A005B4087 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		6823E6311B0D292A005B4087 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		6823E6371B0D2A75005B4087 /* Perk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perk.h; sourceTree = "<group>"; };
+		6823E6381B0D2A75005B4087 /* Perk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Perk.m; sourceTree = "<group>"; };
 		A55BCD071B0BFF090005F233 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		A55BCD091B0BFF6C0005F233 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = /Library/Frameworks/Parse.framework; sourceTree = "<absolute>"; };
 		A55BCD0B1B0BFF830005F233 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = /Library/Frameworks; sourceTree = "<absolute>"; };
-		A55BCD0D1B0BFF9D0005F233 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = /Library/Frameworks/ParseUI.framework; sourceTree = "<absolute>"; };
-		A55BCD0F1B0BFFE10005F233 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = /Library/Frameworks/Bolts.framework; sourceTree = "<absolute>"; };
-		A55BCD101B0BFFE10005F233 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = /Library/Frameworks/ParseCrashReporting.framework; sourceTree = "<absolute>"; };
-		A55BCD111B0BFFE10005F233 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = /Library/Frameworks/ParseFacebookUtils.framework; sourceTree = "<absolute>"; };
 		A55BCD151B0C001F0005F233 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A55BCD161B0C001F0005F233 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		A55BCD171B0C001F0005F233 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -94,9 +102,6 @@
 		A55BCD311B0C00BB0005F233 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A55BCD331B0C00C60005F233 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A55BCD351B0C00D10005F233 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A562EBC71B0C3E75001CA5F1 /* PerkProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerkProperties.h; sourceTree = "<group>"; };
-		A562EBC81B0C3E75001CA5F1 /* PerkProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerkProperties.m; sourceTree = "<group>"; };
-		A562EBCA1B0C47F8001CA5F1 /* PerkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerkConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 			files = (
 				A55BCD371B0C00E30005F233 /* libsqlite3.0.dylib in Frameworks */,
 				A55BCD361B0C00D10005F233 /* UIKit.framework in Frameworks */,
+				6823E6361B0D292A005B4087 /* ParseUI.framework in Frameworks */,
+				6823E6351B0D292A005B4087 /* ParseFacebookUtils.framework in Frameworks */,
 				A55BCD341B0C00C60005F233 /* SystemConfiguration.framework in Frameworks */,
 				A55BCD321B0C00BB0005F233 /* StoreKit.framework in Frameworks */,
 				A55BCD301B0C009E0005F233 /* Security.framework in Frameworks */,
@@ -119,14 +126,12 @@
 				A55BCD1F1B0C001F0005F233 /* AudioToolbox.framework in Frameworks */,
 				A55BCD201B0C001F0005F233 /* CFNetwork.framework in Frameworks */,
 				A55BCD211B0C001F0005F233 /* CoreGraphics.framework in Frameworks */,
+				6823E6321B0D292A005B4087 /* Bolts.framework in Frameworks */,
 				A55BCD221B0C001F0005F233 /* CoreLocation.framework in Frameworks */,
 				A55BCD231B0C001F0005F233 /* Foundation.framework in Frameworks */,
 				A55BCD241B0C001F0005F233 /* Social.framework in Frameworks */,
-				A55BCD121B0BFFE10005F233 /* Bolts.framework in Frameworks */,
-				A55BCD131B0BFFE10005F233 /* ParseCrashReporting.framework in Frameworks */,
-				A55BCD141B0BFFE10005F233 /* ParseFacebookUtils.framework in Frameworks */,
-				A55BCD0E1B0BFF9D0005F233 /* ParseUI.framework in Frameworks */,
-				A55BCD0A1B0BFF6C0005F233 /* Parse.framework in Frameworks */,
+				6823E6331B0D292A005B4087 /* Parse.framework in Frameworks */,
+				6823E6341B0D292A005B4087 /* ParseCrashReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,18 +167,21 @@
 		067CF4CD1B0BE69600F9E879 /* Park Perks */ = {
 			isa = PBXGroup;
 			children = (
-				A562EBCA1B0C47F8001CA5F1 /* PerkConstants.h */,
-				A562EBC71B0C3E75001CA5F1 /* PerkProperties.h */,
-				A562EBC81B0C3E75001CA5F1 /* PerkProperties.m */,
-				A55BCD041B0BFC4D0005F233 /* Perk.h */,
-				A55BCD051B0BFC4D0005F233 /* Perk.m */,
-				A55BCCFE1B0BF0CC0005F233 /* ParkModel.h */,
-				A55BCCFF1B0BF0CC0005F233 /* ParkModel.m */,
 				067CF4D21B0BE69600F9E879 /* AppDelegate.h */,
 				067CF4D31B0BE69600F9E879 /* AppDelegate.m */,
-				067CF4D51B0BE69600F9E879 /* ViewController.h */,
-				067CF4D61B0BE69600F9E879 /* ViewController.m */,
 				067CF4D81B0BE69600F9E879 /* Main.storyboard */,
+				6823E6371B0D2A75005B4087 /* Perk.h */,
+				6823E6381B0D2A75005B4087 /* Perk.m */,
+				6823E62A1B0D28D3005B4087 /* Park.h */,
+				6823E62B1B0D28D3005B4087 /* Park.m */,
+				6823E6241B0D2840005B4087 /* ParkController.h */,
+				6823E6251B0D2840005B4087 /* ParkController.m */,
+				6823E6271B0D287D005B4087 /* ParkSearchViewController.h */,
+				6823E6281B0D287D005B4087 /* ParkSearchViewController.m */,
+				6823E61E1B0D27F9005B4087 /* ParkListViewController.h */,
+				6823E61F1B0D27F9005B4087 /* ParkListViewController.m */,
+				6823E6211B0D2803005B4087 /* ParkDetailViewController.h */,
+				6823E6221B0D2803005B4087 /* ParkDetailViewController.m */,
 				067CF4DB1B0BE69600F9E879 /* Images.xcassets */,
 				067CF4DD1B0BE69600F9E879 /* LaunchScreen.xib */,
 				067CF4CE1B0BE69600F9E879 /* Supporting Files */,
@@ -229,11 +237,11 @@
 				A55BCD1A1B0C001F0005F233 /* CoreLocation.framework */,
 				A55BCD1B1B0C001F0005F233 /* Foundation.framework */,
 				A55BCD1C1B0C001F0005F233 /* Social.framework */,
-				A55BCD0F1B0BFFE10005F233 /* Bolts.framework */,
-				A55BCD101B0BFFE10005F233 /* ParseCrashReporting.framework */,
-				A55BCD111B0BFFE10005F233 /* ParseFacebookUtils.framework */,
-				A55BCD0D1B0BFF9D0005F233 /* ParseUI.framework */,
-				A55BCD091B0BFF6C0005F233 /* Parse.framework */,
+				6823E62D1B0D292A005B4087 /* Bolts.framework */,
+				6823E62E1B0D292A005B4087 /* Parse.framework */,
+				6823E62F1B0D292A005B4087 /* ParseCrashReporting.framework */,
+				6823E6301B0D292A005B4087 /* ParseFacebookUtils.framework */,
+				6823E6311B0D292A005B4087 /* ParseUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -338,12 +346,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55BCD061B0BFC4D0005F233 /* Perk.m in Sources */,
-				067CF4D71B0BE69600F9E879 /* ViewController.m in Sources */,
-				A55BCD001B0BF0CC0005F233 /* ParkModel.m in Sources */,
 				067CF4D41B0BE69600F9E879 /* AppDelegate.m in Sources */,
-				A562EBC91B0C3E75001CA5F1 /* PerkProperties.m in Sources */,
+				6823E6231B0D2803005B4087 /* ParkDetailViewController.m in Sources */,
+				6823E6291B0D287D005B4087 /* ParkSearchViewController.m in Sources */,
+				6823E6391B0D2A75005B4087 /* Perk.m in Sources */,
 				067CF4D11B0BE69600F9E879 /* main.m in Sources */,
+				6823E6201B0D27F9005B4087 /* ParkListViewController.m in Sources */,
+				6823E6261B0D2840005B4087 /* ParkController.m in Sources */,
+				6823E62C1B0D28D3005B4087 /* Park.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +484,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Park Perks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -488,6 +499,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Park Perks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

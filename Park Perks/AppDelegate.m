@@ -16,7 +16,7 @@
 // #import <ParseCrashReporting/ParseCrashReporting.h>
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "ParkController.h"
 #import <Parse/Parse.h>
 
 @implementation AppDelegate
@@ -32,6 +32,9 @@
     [Parse setApplicationId:@"L2PiG6qkphRbZ0QdlE2ttZcSnWrYyQoKpdkNPUFz"
                   clientKey:@"mboMmNW8godpWGzxYGJrrnEY6R7NmwT5IFeC0nLj"];
     
+    [Park registerSubclass];
+    [Perk registerSubclass];
+        
     // ****************************************************************************
     // Uncomment this line if you want to enable Crash Reporting
     // [ParseCrashReporting enable];
@@ -54,8 +57,8 @@
     [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
     
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] init];
-    self.window.rootViewController = self.viewController;
+//    self.viewController = [[ViewController alloc] init];
+//    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
     if (application.applicationState != UIApplicationStateBackground) {

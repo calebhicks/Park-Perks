@@ -2,118 +2,28 @@
 //  Perk.h
 //  Park Perks
 //
-//  Created by Douglas Voss on 5/19/15.
+//  Created by Caleb Hicks on 5/20/15.
 //  Copyright (c) 2015 Skyler Clark. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
-#import "PerkConstants.h"
 
-@interface Perk : NSObject
+typedef enum CategoryType : NSUInteger
+{
+    CategoryPlayground,
+    CategoryExercise,
+    CategoryNature,
+    CategoryWater,
+    CategorySports,
+    CategoryHistory,
+    CategoryFacilities,
+    CategoryPicnic
+} CategoryType;
 
-@property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *iconName;
-@property (nonatomic, assign) int category;
+@interface Perk : PFObject <PFSubclassing>
 
-- (NSString *)toString;
-
-- (void)saveToDatabase;
+@property (strong, nonatomic) NSString *name;
+@property (assign, nonatomic) NSArray *categories;
+@property (strong, nonatomic) NSString *iconName; // icon name vs img
 
 @end
-
-
-// Perks
-// ******** Playground		      
-// seeSaw
-// babySwing
-// swings
-// tireSwing
-// tubeSlide
-// openSlide
-// toddlerPlayEquipment
-// climbingNet
-// woodChips
-// rubber
-// sand
-// monkeyBars
-// preschoolActivities
-// splashPad
-// bucketSpinner
-// hoopSpinner
-// climbingWall
-// balanceBeam
-// novelExerciseStations
-// electronicGameStations
-// zipLine
-// merryGoRound
-// playSystem
-// sandDigger
-// springRocker
-// shaded
-//
-// ******** Exercises
-// walkingJoggingPath
-// chinUp
-// exerciseStations
-//
-// ******** Nature
-// creek
-// pond
-// arboretum
-// ducks
-// fishing
-// aviary
-//
-// ******** Water
-// outdoorPool
-// waterSlide
-// babyPool
-// lapSwim
-// //creek
-// //pond
-// splashPad
-// drinkingFountain
-// divingBoard
-// highDive
-// waterNozzle
-//
-// ******** Sports
-// Baseball/Softball
-// Soccer
-// Football
-// BasketBall
-// Tennis
-// RaquetBall
-// VolleyBall
-// BMX
-// Skate
-// Disc Golf
-// Bicycling
-// Horshoes
-//
-// ******** History
-// Memorials
-//
-// ******** Facilities
-// Bathroom
-// WaterFountain
-// Electricity
-// Lighting
-// DogsAllowed
-// DogsOffLeashAllowed
-// Drones
-// Kites
-// Surface
-// Shade
-//
-// ******** Picnic
-// BBQ Gas
-// BBQ Fire Pit
-// BBQ Charcoal
-// Shelter
-// Pavilion
-// Ramada
-// Alcohol Permit
-// Seating
-		      

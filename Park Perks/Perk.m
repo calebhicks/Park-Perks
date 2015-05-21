@@ -2,7 +2,7 @@
 //  Perk.m
 //  Park Perks
 //
-//  Created by Douglas Voss on 5/19/15.
+//  Created by Caleb Hicks on 5/20/15.
 //  Copyright (c) 2015 Skyler Clark. All rights reserved.
 //
 
@@ -10,19 +10,12 @@
 
 @implementation Perk
 
-- (NSString *)toString
-{
-    return self.name;
-}
+@dynamic name;
+@dynamic categories;
+@dynamic iconName;
 
-- (void)saveToDatabase
-{
-    PFObject *pfObj = [PFObject objectWithClassName:@"Perk"];
-    
-    pfObj[@"name"]=self.name;
-    pfObj[@"iconName"]=self.iconName;
-    pfObj[@"category"]=[NSNumber numberWithInt:self.category];
-    [pfObj saveInBackground];
++ (NSString *)parseClassName {
+    return @"Perk";
 }
 
 @end
